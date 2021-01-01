@@ -8,7 +8,7 @@
 			"isBackground": true,
 			"dependsOn": "pipInstall",
 			"options": {
-				"cwd": "${workspaceFolder}/AzureFunction"
+				"cwd": "${workspaceFolder}/azure_function"
 			}
 		},
 		{
@@ -25,7 +25,20 @@
 			},
 			"problemMatcher": [],
 			"options": {
-				"cwd": "${workspaceFolder}/AzureFunction"
+				"cwd": "${workspaceFolder}/azure_function"
+			}
+		},
+		{
+			"type": "func",
+			"command": "pack",
+			"problemMatcher": [],
+			"label": "func: pack",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"options": {
+				"cwd": "${workspaceFolder}/azure_function"
 			}
 		}
 	]
