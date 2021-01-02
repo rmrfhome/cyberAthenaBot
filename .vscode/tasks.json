@@ -2,6 +2,19 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
+			"label": "run tests",
+			"command": "python -m unittest tests/greek_grammar_tests.py",
+			"type": "shell",
+			"problemMatcher": [],
+			"group": {
+				"kind": "test",
+				"isDefault": true
+			},
+			"options": {
+				"cwd": "${workspaceFolder}/azure_function"
+			}
+		},
+		{
 			"type": "func",
 			"command": "host start",
 			"problemMatcher": "$func-python-watch",
