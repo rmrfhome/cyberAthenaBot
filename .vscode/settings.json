@@ -19,7 +19,24 @@
         "titleBar.activeBackground": "#6d2617",
         "titleBar.activeForeground": "#e7e7e7",
         "titleBar.inactiveBackground": "#6d261799",
-        "titleBar.inactiveForeground": "#e7e7e799"
+        "titleBar.inactiveForeground": "#e7e7e799",
+        "commandCenter.border": "#e7e7e799",
+        "editorGroup.border": "#973520",
+        "panel.border": "#973520",
+        "sash.hoverBorder": "#973520",
+        "sideBar.border": "#973520",
+        "statusBar.border": "#6d2617",
+        "statusBar.debuggingBackground": "#175e6d",
+        "statusBar.debuggingBorder": "#175e6d",
+        "statusBar.debuggingForeground": "#e7e7e7",
+        "statusBarItem.remoteBackground": "#6d2617",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "tab.activeBorder": "#973520",
+        "titleBar.border": "#6d2617"
     },
-    "peacock.color": "#6D2617"
+    "peacock.color": "#6D2617",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "python.formatting.provider": "none"
 }
